@@ -1,20 +1,17 @@
-import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-
-import Home from './Views/Home'
-import About from './Views/About'
-import Login from './Views/Login'
-import Register from './Views/Register'
-import Dashboard from './Views/Dashboard'
-
-import CustomNavbar from './Components/CustomNavbar'
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./index.css";
+import Home from "./Views/Home";
+import About from "./Views/About/About";
+import Login from "./Views/Login/Login";
+import Register from "./Views/Register/Register";
+import Dashboard from "./Views/Dashboard";
 
 function App() {
   return (
     <div>
       <Router>
-        <CustomNavbar />
-
+       
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
