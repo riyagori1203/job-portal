@@ -12,6 +12,6 @@ export const useStore = create(set => ({
     },
     setToken: (val) => set({ user: {token: val} }),
     setUsernameInStore: (val) => set({ user: {username: val} }),
-    // apiUrl: 'https://asia-east2-videointerview-c5b52.cloudfunctions.net/api'
-    apiUrl: 'http://localhost:5000/videointerview-c5b52/asia-east2/api'
+    apiUrl: 'https://asia-east2-videointerview-c5b52.cloudfunctions.net/api',
+    // apiUrl: 'http://localhost:5000/videointerview-c5b52/asia-east2/api'
 }))
