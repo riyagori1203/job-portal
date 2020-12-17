@@ -1,0 +1,2 @@
+1) Store user logged-in state in redux and display "Login Register" and "Hello, {user}!" accordingly
+2) In the Dashboard, show them their upcoming interviews if any. Both for the interviewer and interviewee
