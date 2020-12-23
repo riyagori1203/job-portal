@@ -1,5 +1,5 @@
 # Video based job portal
-
+Internship project created by [@neelansh15](https://github.com/neelansh15), [@sanjeetnaik](https://github.com/sanjeetnaik) and [@riya-gori](https://github.com/riya-gori).  
 ## Frontend
 Framework: ReactJS  
 State Management: [Zustand](https://github.com/pmndrs/zustand)
